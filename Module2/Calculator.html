@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head><title>Seed's Calculator</title></head>
+<body>
+<form action="Calculator.php" method="POST">
+	<p>
+		<label for="firstnumber">First Number:</label>
+		<input type="text" name="first" value = "3.1415926" id="firstnumber" />
+	</p>
+	<p>
+		<label for="secondnumber">Last Number:</label>
+		<input type="text" name="second" value = "3.1415926" id="secondnumber" />
+	</p>
+
+	<p>
+		<strong>Operation:</strong>
+		<input type="radio" name="operation" value="add" checked="checked" id="addinput" /> <label for="addinput">Addition</label> &nbsp;
+		<input type="radio" name="operation" value="sub" id="subinput" /> <label for="subinput">Subtraction</label>&nbsp;
+		<input type="radio" name="operation" value="mul" id="mulinput" /> <label for="mulinput">Multiplication</label> &nbsp;
+		<input type="radio" name="operation" value="div" id="divinput" /> <label for="divinput">Division</label>
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		<input type="reset" />
+	</p>
+</form>
+</body>
+</html>

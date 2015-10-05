@@ -1,0 +1,44 @@
+<style>
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000;
+}
+h3{
+	font-size: 250%;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+p {
+    font-size: 100%;
+
+}
+p.right{
+    text-align: right;
+    color: black;
+
+}
+p.center{
+    text-align: center;
+    color: black;
+}
+p.left {
+    text-align: left;
+    color: black;
+}
+
+
+body {
+     background-image: url("wut.jpg");
+    background-color: #cccccc;
+    color:#800080;
+
+}
+</style>
